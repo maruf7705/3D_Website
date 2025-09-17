@@ -1,0 +1,47 @@
+body {
+    /* background-color: blue; */
+    /* margin-top: 0;
+    margin-left: 0;
+    margin-right: 0; */
+    margin: 0;
+}
+
+h1 {
+    /* margin: 0; */
+    margin-top: 0;
+    /* margin-block-end: 0.5em; */
+
+
+}
+
+.box{
+    height: 600px;
+    width: 600px;
+}
+
+.top-container{
+    background-color: #D9E9CF;
+    height: 200px;
+    width: 200px;
+    border: 10px solid;
+    padding: 20px;
+}
+
+
+
+
+.middle-container {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(255, 0, 0);
+    margin-left: 43%;
+    border: 20px solid;
+}
+
+.button-container{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(255, 238, 0);
+    margin-left: 83%;
+    border: 10px solid;
+}

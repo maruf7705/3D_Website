@@ -1,37 +1,93 @@
 body {
-    /* background-color: blue; */
-    /* margin-top: 0;
-    margin-left: 0;
-    margin-right: 0; */
     margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+
 }
 
 h1 {
-    /* margin: 0; */
-    margin-top: 0;
-    /* margin-block-end: 0.5em; */
+    font-family: "Sacramento", cursive;
+    font-size: 5.625em;
+    margin-block-end: 0;
+    margin: 50px auto 0 auto;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
 
 }
 
-.box{
+.yesful {
+    font-weight: normal;
+    line-height: 2;
+    margin-block-start: 0;
+}
+
+h1,
+h2 {
+    color: #66BFBF;
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+
+
+}
+
+h3,
+a {
+    color: #11999E;
+}
+
+.box {
     height: 600px;
     width: 600px;
 }
 
-.top-container{
+.top-container {
+    position: relative;
+    padding-top: 100px;
     background-color: #D9E9CF;
-    /* height: 100px; */
-
 
 }
-.middle-container {
-    height: 200px;
-    width: 200px;
-    background-color: rgb(255, 0, 0);
-}
-.button-container{
-    height: 200px;
-    width: 200px;
-    background-color: rgb(255, 238, 0);
 
+.middle-container {}
+
+.button-container {}
+
+.Top-cloude {
+    position: absolute;
+    right: 400px;
+    top: 50px;
+
+}
+
+.Buttom-cloude {
+    position: absolute;
+    left: 400px;
+    bottom: 300px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.app-development {
+    width: 25%;
+    float: left;
+    margin-right: 20px;
+}
+
+#pythonimg {
+    width: 25%;
+    float: right;
+    margin-right: 20px;
+}
+
+.skill-paraone{
+    
 }

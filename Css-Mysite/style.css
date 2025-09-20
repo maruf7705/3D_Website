@@ -2,7 +2,6 @@ body {
     margin: 0;
     text-align: center;
     font-family: "Merriweather", serif;
-
 }
 
 h1 {
@@ -15,7 +14,6 @@ h1 {
 h2 {
     font-family: "Montserrat", sans-serif;
     font-size: 2.5rem;
-
 }
 
 .yesful {
@@ -31,8 +29,6 @@ h2 {
 
 h3 {
     font-family: "Montserrat", sans-serif;
-
-
 }
 
 h3,
@@ -48,7 +44,7 @@ a {
 .top-container {
     position: relative;
     padding-top: 100px;
-    background-color: #D9E9CF;
+    background-color: #EAF6F6;
 
 }
 
@@ -60,13 +56,17 @@ a {
     position: absolute;
     right: 400px;
     top: 50px;
-
+    width:15em;
 }
 
 .Buttom-cloude {
     position: absolute;
     left: 400px;
     bottom: 300px;
+    width: 15em;
+}
+.mountain-iamge{
+    width: 870px;
 }
 
 .skill-row {
@@ -88,6 +88,22 @@ a {
     margin-right: 20px;
 }
 
-.skill-paraone{
-    
+/* .skill-paraone{
+    clear: left;
+}
+.skill-paratwo{
+    clear: right;
+
+} */
+
+.Lowermaruf{
+    width: 30%;
+    margin: auto;
+    line-height: 2;
+}
+
+hr{
+    margin-top: 50px;
+    border:dotted;
+    width: 30%;
 }
